@@ -20,9 +20,9 @@ namespace ConsoleApp18
             //{
             //    numbers.Add(r.Next(1, 10));
             //}
-            //foreach(var num in numbers.Distinct())
+            //foreach (var num in numbers.Distinct())
             //{
-            //    Console.WriteLine($"Number: {num}\tNUmber*Frequency: {num* numbers.Count(x => x == num)}\tFrequency:{numbers.Count(x => x == num)}");
+            //    Console.WriteLine($"Number: {num}\tNUmber*Frequency: {num * numbers.Count(x => x == num)}\tFrequency:{numbers.Count(x => x == num)}");
             //}
 
             //string str = Console.ReadLine();
@@ -31,7 +31,7 @@ namespace ConsoleApp18
             //    Console.WriteLine($"Character: {s}\tFrequency: {str.Count(x => x == s)}");
             //}
 
-            //List<string> strs = new List<string>(){ "ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI" };
+            //List<string> strs = new List<string>() { "ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI" };
             //string FirstLetter = Console.ReadLine();
             //string SecondLetter = Console.ReadLine();
             //var res = strs.Where(x => x[0].ToString() == FirstLetter).Where(x => x.Last().ToString() == SecondLetter);
